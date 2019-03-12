@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+<body>
+  <h1 style="text-align:center">WeaIsometric</h1>
+  <p style="text-align:center">基于 canvas 技术的 2.5 D 等轴距动态插画</p>
+  <div class="canvas" id="animation_container" style="width: 748px; height: 748px;margin: 0 auto;">
+    <canvas class="canvas" id="canvas" style="display: block; position: absolute; height: 748px; width: 748px;" width="747" height="747"></canvas>
+    <div class="canvas" id="dom_overlay_container" style="pointer-events: none; overflow: hidden; position: absolute; left: 0px; top: 0px; display: block; width: 748px; height: 748px;">
+    </div>
+  </div>
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="./createjs.js"></script>
+<script src="./home-illustration.js"></script>
+</html>
